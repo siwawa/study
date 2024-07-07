@@ -3,6 +3,9 @@
 # 가장 왼쪽의 직사각형이 | 인 경우는 2*(n-1) 직사각형을 채우는 경우와 같다. 
 # 가장 왼쪽의 직사각형이 = 인 경우는 2*(n-2) 직사각형을 채우는 경우와 같다. 
 
+import time 
+start_time = time.time() 
+
 number = int(input())
 table = [0] * (number + 1) 
 
@@ -18,8 +21,7 @@ if number > 1:
 
     print(table[number]%10007)  
 
-
-
-
-
+end_time = time.time()
+execution_time = end_time - start_time
+print(execution_time) 
 
