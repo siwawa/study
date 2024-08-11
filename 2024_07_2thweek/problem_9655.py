@@ -9,5 +9,3 @@ if (remains == 1) or (remains == 3):
     print("SK") 
 if (remains == 2) or (remains == 0): 
     print("CY") 
-    
-     
